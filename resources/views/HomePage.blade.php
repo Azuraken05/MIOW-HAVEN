@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MIOW</title>
-  <link href="CSS\Template.css" rel="stylesheet" type="text/css" /> <!-- TEMPLATE CSS -->
-  <link href="CSS\Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href="/css/Template.css" rel="stylesheet" type="text/css">
+  <link href="/css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 
-  <link href="CSS\HomePage.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
+  <link href="CSS/HomePage.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
   <style>
     .footer {
       position: fixed;
@@ -34,9 +35,9 @@
           <img class="Profile" src="Assets\Hamburger\Profile.jpg">
           <p>@GwapoKo123</p>
           <div class="BEGINNER"> STUDENT </div>
-          <a href="HomePage.html">HOMEPAGE</a>
-          <a href="HomeLessons.html">DRAWING LESSONS</a>
-          <a href="#">COMMISSION</a>
+          <a href="/homepage">HOMEPAGE</a>
+          <a href="/drawinglesson">DRAWING LESSONS</a>
+          <a href="#">SKETCHPAD</a>
         </nav>
         <button class="hamburger">
           <div class="bar"></div>
@@ -50,13 +51,13 @@
       <div class="logo-title"><b> MIOW:Realm of Arts </b></div>
       <div class="logo-titled">Mastering Innovation Own Work</div>
       <div class="logo-text">
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <p>A haven for artistic content that encourages growth and development in both learners and artists.</p>
         <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <p> Ut enim ad minim  Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p> Ut enim ad minim.</p>
       </div>
-      <img src="Assets\Hamburger\Logo.png" class="content-logo">
+      <img src="/Assets/Logo.png" class="content-logo">
       <button class="submit" type="submit"><a href="HomeLessons.html">START NOW!</a></button>
     </div>
     <!--END CONTENT-->
@@ -65,7 +66,7 @@
     <!--START ABOUT-->
     <div class="svg-Pcontainer">
       <div class="section-title"> <b>ABOUT</b> </div>
-      <img src="Assets\Hamburger\Logo.png" class="logo-about">
+      <img src="/Assets/Logo.png" class="logo-about">
       <div class="about-title"><b> What is MIOW? </b></div>
       <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
     </div>

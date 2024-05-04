@@ -16,7 +16,7 @@
   <div class="Main">
     <!--START FORMS-->
     <div class="Authentacation-form">
-      <img src="Assets\Hamburger\Logo.png">
+      <img src="/Assets/Logo.png">
       <form class="forms-login">
         <label class="Email" for="email">EMAIL</label>
         <input type="text" placeholder="Enter your email address" name="email" required>
@@ -27,16 +27,16 @@
               <i class="bi bi-eye-slash" id="togglePassword"></i>
         </p>
       
-        <button class="submit" type="submit"><a href="HomePage.html">Sign In</a></button>
-        <div class="form-bottom">  <a  class="link-left" href="SignUp.html">Sign Up</a> <a class="link-right">Forgot Password?</a> </div>
+        <button class="submit" type="submit"><a href="/homepage">Sign In</a></button>
+        <div class="form-bottom">  <a  class="link-left" href="/signup">Sign Up</a> <a class="link-right">Forgot Password?</a> </div>
       </form>
         
     </div>
   </div>
   <!--END FORMS-->
 
-  <script src="SCIRPT\Authentacation.js"></script>
-  <script src="SCIRPT\Hambruger.js"></script>
+  <script src="SCIRPT/Authentacation.js"></script>
+  <script src="SCIRPT/Hambruger.js"></script>
 </body>
 
 </html>
