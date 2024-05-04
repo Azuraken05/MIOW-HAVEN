@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width">
   <title>MIOW</title>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link href="resources\views\CSS\Template.css" rel="stylesheet" type="text/css" /> <!-- TEMPLATE CSS -->
-  <link href=".\resources\views\CSS\Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
-
-  <link href="C:\Users\forones\Downloads\CODING\miowhaven\resources\views\CSS\Authentacations.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
+  <link href="/css/Template.css" rel="stylesheet" type="text/css">
+  <link href="/css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
+  <link href="/css/Authentacations.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
 </head>
 
 <body>
