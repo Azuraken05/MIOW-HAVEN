@@ -20,6 +20,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'type',
+        'facebook',
+        'instagram',
+        'discord'
     ];
 
     /**
@@ -43,5 +47,28 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    /**
+     * RELATIONSHIPS
+     */
+    public function artworks()
+    {
+        return $this->hasMany(Image::class);
+    }
+
+    public function userReports()
+    {
+        return $this->hasMany(UserReports::class);
+    }
+
+    public function drawingLessons()
+    {
+        return $this->hasMany(DrawingLesson::class);
+    }
+
+    public function ownedLessons()
+    {
+        return $this->belongsToMany(DrawingLesson::class);
     }
 }
