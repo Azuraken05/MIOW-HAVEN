@@ -7,11 +7,11 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+
+
+Route::get('/login', function () {
     return view('Authentacation');
 });
-Route::post('/login', [AuthenticationController::class, "login"])->name("login");
-
 
 Route::get('/homepage', function () {
     return view('HomePage');
@@ -21,10 +21,21 @@ Route::get('/signup', function () {
     return view('SignUp');
 });
 
-Route::post('/register', [UserController::class, "register"])->name("register");
 
-Route::get('/drawinglesson', function () {
-    return view('SignUp');
+Route::get('/homelesson', function () {
+    return view('HomeLessons');
+});
+
+Route::get('/artgallery', function () {
+    return view('ArtGallery');
+});
+
+Route::get('/profile', function () {
+    return view('Profile');
+});
+
+Route::get('/artistpage', function () {
+    return view('ArtistPage');
 });
 
 /**
@@ -72,37 +83,3 @@ Route::get('/users', [UserController::class, 'getUsers']);
 Route::post('/register', [UserController::class, 'register'])->name("register");
 Route::put('/user/{userId}', [UserController::class, 'update']);
 Route::delete('/user/{userId}', [UserController::class, 'delete']);
-
-
-<?php
-
-use Illuminate\Support\Facades\Route;
-
-Route::get('/login', function () {
-    return view('Authentacation');
-});
-
-Route::get('/homepage', function () {
-    return view('HomePage');
-});
-
-Route::get('/signup', function () {
-    return view('SignUp');
-});
-
-
-Route::get('/homelesson', function () {
-    return view('HomeLessons');
-});
-
-Route::get('/artgallery', function () {
-    return view('ArtGallery');
-});
-
-Route::get('/profile', function () {
-    return view('Profile');
-});
-
-Route::get('/artistpage', function () {
-    return view('ArtistPage');
-});
