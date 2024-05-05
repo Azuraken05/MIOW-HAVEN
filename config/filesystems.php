@@ -68,6 +68,14 @@ return [
             'throw' => false,
         ],
 
+        'avatars' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/avatars'),
+            'url' => env('APP_URL').'/storage/avatars',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -98,6 +106,7 @@ return [
         public_path('artworks') => storage_path('app/public/artworks'),
         public_path('video-lessons') => storage_path('app/public/video-lessons'),
         public_path('module-lessons') => storage_path('app/public/module-lessons'),
+        public_path('avatars') => storage_path('app/public/avatars'),
     ],
 
 ];

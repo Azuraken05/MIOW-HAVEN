@@ -13,7 +13,7 @@ class LessonController extends Controller
     public function createLesson(Request $request)
     {
         //types should be video or file
-        //$user = Auth::user();
+        $user = $request->user();
         $data = $request->all();
         $data["user_id"] = 1;//$user->id;
 
@@ -21,19 +21,20 @@ class LessonController extends Controller
             case "file":
                 $data["path"] = "module-lessons/" . Storage::disk("module-lessons")
                 ->putFileAs(
-                    "1", //$user->id
-                    $request->file("uploaded_file"), $data["title"] . "." . $request->file("uploaded_file")->getClientOriginalExtension()
+                    $user->id, //"1"
+                    $request->file("uploaded_file"), 
+                    $data["title"] . "." . $request->file("uploaded_file")->getClientOriginalExtension()
                 );
                 break;
             case "video":
                 $data["path"] = "video-lessons/" . Storage::disk("video-lessons")
                 ->putFileAs(
-                    "1", //$user->id
-                    $request->file("uploaded_file"), $data["title"] . "." . $request->file("uploaded_file")->getClientOriginalExtension()
+                    $user->id, //"1"
+                    $request->file("uploaded_file"), 
+                    $data["title"] . "." . $request->file("uploaded_file")->getClientOriginalExtension()
                 );
                 break;
         }
-        
         unset($data["uploaded_file"]);
         $drawingLesson = DrawingLesson::create($data);
         return $drawingLesson;

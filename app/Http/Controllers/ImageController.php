@@ -16,8 +16,9 @@ class ImageController extends Controller
         $imageData["user_id"] = $user->id;
         $imageData["path"] = "artworks/" . Storage::disk("artworks")
         ->putFileAs(
-            "1", 
-            $request->file("artwork"), $imageData["title"] . "." . $request->file("artwork")->getClientOriginalExtension()
+            $user->id, //"1", 
+            $request->file("artwork"), 
+            $imageData["title"] . "." . $request->file("artwork")->getClientOriginalExtension()
         );
         unset($imageData["artwork"]);
         $image = Image::create($imageData);

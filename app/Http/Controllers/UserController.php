@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class UserController extends Controller
 {
@@ -38,6 +39,15 @@ class UserController extends Controller
     {
         $authenticatedUser = $request->user();
         $data = $request->all();
+        if(isset($data["avatar"])){
+            $data["avatar"] = "avatars/" . Storage::disk("avatars")
+                ->putFileAs(
+                    $authenticatedUser->id, 
+                    $request->file("avatar"), 
+                    $data["name"] . "." . $request->file("avatar")->getClientOriginalExtension()
+                );
+        }
+
         $authenticatedUser->update($data);
         return response();
     }
