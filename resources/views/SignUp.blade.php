@@ -18,7 +18,7 @@
   <div class="Main">
     <!--START FORMS-->
     <div class="Authentacation-form">
-      <img src="Assets\Hamburger\Logo.png">
+      <img src="/Assets/Logo.png">
       <p class="Sign-upWelcome">Welcome to MIOW</p>
       <form class="forms-login">
         <p>
@@ -38,7 +38,7 @@
           <input type="cpassword" placeholder="Confirm your password" name="cpsw" id="cpsw" required>
         </p>
       
-        <button class="submit" type="submit"><a href="HomePage.html">Sign In</a></button>
+        <button class="submit" type="submit"><a href="/auth">Sign In</a></button>
       </form>
         
     </div>

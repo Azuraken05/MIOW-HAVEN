@@ -26,12 +26,12 @@
 }
 
 .Main::-webkit-scrollbar-thumb {
-    background: #785694; /* Color of the thumb */
+    background: #342D3F; /* Color of the thumb */
     border-radius: 9px; /* Make the thumb rounded */
 }
 
 .Main::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the thumb on hover */
+    background: #D4CBE0; /* Color of the thumb on hover */
 }
 
 
@@ -50,8 +50,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px;
-    background-color:#9984D1; 
+    height: 45px;
+    background-color:#D4CBE0; 
     opacity: 90%;
-    z-index: 1; /* Set z-index to a higher value */
+    z-index: 1000; /* Set z-index to a higher value */
 }

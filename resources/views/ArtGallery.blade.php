@@ -98,10 +98,9 @@
             <div class="card card_large"></div>
             <div class="card card_small"></div>
             <div class="card card_medium"></div>
-  </div>
-          
-        <!--End Grid-->
-    </div>
+          </div>
+          <!--End Grid-->
+        </div>
 
     
 

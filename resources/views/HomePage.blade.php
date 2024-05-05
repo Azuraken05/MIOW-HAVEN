@@ -12,16 +12,6 @@
 
   <link href="CSS/HomePage.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
   <style>
-    .footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color: #4B4069; /* Adjust as needed */
-      color: #FFFFFF; /* Adjust as needed */
-      padding: 20px; /* Adjust as needed */
-      text-align: center;
-    }
   </style>
 </head>
 
@@ -31,12 +21,14 @@
     <!--START NAVIGATION-->
     <header>
       <div class="svg-container">
+        <div class="topnav-text">MIOW</div>
+        <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
         <nav class="navigation">
-          <img class="Profile" src="Assets\Hamburger\Profile.jpg">
+          <img class="Profile" src="Assets\Shhh.jpg">
           <p>@GwapoKo123</p>
           <div class="BEGINNER"> STUDENT </div>
           <a href="/homepage">HOMEPAGE</a>
-          <a href="/drawinglesson">DRAWING LESSONS</a>
+          <a href="/homelesson">DRAWING LESSONS</a>
           <a href="#">SKETCHPAD</a>
         </nav>
         <button class="hamburger">
@@ -47,28 +39,59 @@
     <!--END NAVIGATION-->
 
     <!--START CONTENT-->
+    <div class="homepage-logo">
+      <img src="Assets/homepageLogo.png" class="content-logo">
+    </div>
     <div class="svg-container-center">
-      <div class="logo-title"><b> MIOW:Realm of Arts </b></div>
-      <div class="logo-titled">Mastering Innovation Own Work</div>
+      <div class="logo-title">MIOW: Where Art Meets Opportunity</div>
+      <div class="logo-titled">Make Income Online with Workspace</div>
       <div class="logo-text">
-        <p>A haven for artistic content that encourages growth and development in both learners and artists.</p>
-        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <p> Ut enim ad minim  Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p> Ut enim ad minim.</p>
+        <p>A haven for artistic content that encourages growth and development in both learners </p>
+        <p>and artists. With access to a multitude of resources, </p>
+        <p> our community is the perfect place for individuals of all skill levels to learn and create.</p>
       </div>
-      <img src="/Assets/Logo.png" class="content-logo">
-      <button class="submit" type="submit"><a href="HomeLessons.html">START NOW!</a></button>
+
+      <div class="logo-textG">
+          <p>Don't miss out on this opportunity to immerse yourself </p>
+          <p> in the realm of arts and take your creativity to the next level.</p>
+      </div>
+
+      <div class="logo-textF">
+        <p>Join now and start your artistic journey today</p>
+      </div>
+
+      <button class="submit" type="submit"><a href="/homelesson">Explore Now</a></button>
     </div>
     <!--END CONTENT-->
 
-
+    
     <!--START ABOUT-->
+    <div class="about-line">
+      <img src="Assets/line.png" class="about-linep">
+    </div>
     <div class="svg-Pcontainer">
-      <div class="section-title"> <b>ABOUT</b> </div>
-      <img src="/Assets/Logo.png" class="logo-about">
-      <div class="about-title"><b> What is MIOW? </b></div>
-      <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+      <div class="section-title"> ABOUT US </div>
+      <img src="Assets/aboutLogo.png" class="logo-about">
+      <div class="about-title">What is MIOW?</div>
+
+      <div class="about-text">
+        <p class="about-textbottom"><span class="about-texthighlight">MIOW</span> is an acronym for <span class="about-texthighlight"> Make Income Online with Workspace.</span></p>
+        <p>A haven of artistic content, where you can earn from</p>
+        <p>your passion, learn from talented artists and explore different forms</p>
+        <p>of art.</p>
+
+        <p class="about-texttop">We are dedicated to designing an e-learning platform that</p>
+        <p>prioritizes the needs and preferences of its users. The</p>
+        <p>following will be offered by our website: </p>
+
+        <p class="about-texttop">🗹 Users can access a diverse array of artistic course from different artists.</p>
+        <p>🗹 Free or paid learning resources from artists.</p>
+        <p>🗹 Commission services by artists.</p>
+
+        <p class="about-texttops">The website's features are designed to create a bridge </p>
+        <p>between artists and learners, providing a haven for artistic </p>
+        <p>content where both parties can benefit from their passion.</p>
+      </div>
     </div>
     <!--END ABOUT-->
 
@@ -97,7 +120,7 @@
         <div class="slides">
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Waifu.jpg" alt="Placeholder image" class="image" />
+            <img src="Assets\Thousand Yard Stare Cat Sticker.jpg" alt="Placeholder image" class="image" />
             <div class="text-overlay">
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>

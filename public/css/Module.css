@@ -1,12 +1,32 @@
+body{
+  font-family: "Inter", sans-serif;
+}
+.svg-Tcontainer{
+  position: absolute;
+  top: 20%; /* Position the container at the vertical center */
+  left: 55%; /* Position the container at the horizontal center */
+  transform: translate(-50%, -50%); /* Center the container */
+  width: 90%; /* Set the width of the rectangle */
+  max-width: 500px; /* Set maximum width */
+  height: 100px; /* Set the height of the rectangle */
+  background-color:none; /* Set the background color to an RGBA color */
+  overflow: hidden; /* Ensure content doesn't overflow outside the container */
+}
+.title p{
+  margin: 0%;
+  font-size: 40px;
+  color: #9984D1;
+  font-weight: 700;
+}
 .svg-Fcontainer {
     position: absolute;
-    top: 40%; /* Position the container at the vertical center */
+    top: 50%; /* Position the container at the vertical center */
     left: 50%; /* Position the container at the horizontal center */
     transform: translate(-50%, -50%); /* Center the container */
     width: 90%; /* Set the width of the rectangle */
     max-width: 1390px; /* Set maximum width */
-    height: 340px; /* Set the height of the rectangle */
-    background-color: rgba(153, 132, 209, 0.8); /* Set the background color to an RGBA color */
+    height: 250px; /* Set the height of the rectangle */
+    background-color: rgba(156, 139, 184, 1); /* Set the background color to an RGBA color */
     overflow: hidden; /* Ensure content doesn't overflow outside the container */
   }
   
@@ -20,16 +40,16 @@
   .carousel,
   .slides,
   .slide {
-    height: 100%; /* Adjust the height of the carousel */
+    height: 80%; /* Adjust the height of the carousel */
     display: flex;
     align-items: center;
   }
   
   .slide {
     flex: 0 0 auto;
-    width: 200px;
-    height: 250px; /* Ensure the slide takes full height of the container */
-    margin: 0 0.5rem;
+    width: 150px;
+    height: 150px; /* Ensure the slide takes full height of the container */
+    margin: 0 0.9rem;
     background-color: #f0f0f0;
     border-radius: 0.25rem;
     overflow: hidden;
@@ -131,4 +151,63 @@
   
   .slide-description {
     margin: 5%; /* Remove margin for description */
+  }
+
+  .svg-Lcontainer{
+    position: absolute;
+    top: 95%; /* Position the container at the vertical center */
+    left: 50%; /* Position the container at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the container */
+    width: 90%; /* Set the width of the rectangle */
+    max-width: 1390px; /* Set maximum width */
+    height: 250px; /* Set the height of the rectangle */
+    background-color: rgba(156, 139, 184, 1); /* Set the background color to an RGBA color */
+    overflow: hidden; /* Ensure content doesn't overflow outside the container */
+  }
+  .sketchpad-button{
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the container */
+    width: 90%; /* Set the width of the rectangle */
+    max-width: 300px; /* Set maximum width */
+    height: 40px; /* Set the height of the rectangle */
+    background-color: #4B4069; /* Set the background color to an RGBA color */
+    overflow: hidden; /* Ensure content doesn't overflow outside the container */
+    border-radius: 10px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .sketchpad-button:hover{
+    background-color: rgba(153, 132, 209, 0.8);
+  }
+  .sketchpad-button p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0; /* Remove default margin */
+  }
+  .svg-container-center{
+    position: absolute;
+    top: 125%; /* Position the container at the vertical center */
+    left: 50%; /* Position the container at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the container */
+    width: 90%; /* Set the width of the rectangle */
+    max-width: 500px; /* Set maximum width */
+    height: 170px; /* Set the height of the rectangle */
+    background-color: none; /* Set the background color to an RGBA color */
+    overflow: hidden; /* Ensure content doesn't overflow outside the container */
+  }
+
+  .top-module{
+    width: 100%;
+    height: 15%;
+    top: 40%;
+    background-color:none;
+    border: none;
+  }
+  .top-module a{
+    margin-left: 3%;
+    color: #FFFFFF;
+    font-weight: 800;
   }
