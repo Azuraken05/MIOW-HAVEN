@@ -44,6 +44,30 @@ return [
             'throw' => false,
         ],
 
+        'artworks' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/artworks'),
+            'url' => env('APP_URL').'/storage/artworks',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        'video-lessons' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/video-lessons'),
+            'url' => env('APP_URL').'/storage/video-lessons',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        'module-lessons' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/module-lessons'),
+            'url' => env('APP_URL').'/storage/module-lessons',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -71,6 +95,9 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+        public_path('artworks') => storage_path('app/public/artworks'),
+        public_path('video-lessons') => storage_path('app/public/video-lessons'),
+        public_path('module-lessons') => storage_path('app/public/module-lessons'),
     ],
 
 ];

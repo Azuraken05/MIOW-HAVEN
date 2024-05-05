@@ -20,18 +20,19 @@
     <div class="Authentacation-form">
       <img src="Assets\Hamburger\Logo.png">
       <p class="Sign-upWelcome">Welcome to MIOW</p>
-      <form class="forms-login">
+      <form class="forms-login" method="POST" action="{{ route('register') }}">
+        @csrf
         <p>
-          <label class="Username" for="email">Username</label>
-          <input type="user" placeholder="Enter your Username" name="user" required>
+          <label class="name" for="name">Username</label>
+          <input type="user" placeholder="Enter your Username" name="name" required>
         </p>
         <p>
           <label class="Email" for="email">Email</label>
           <input type="text" placeholder="Enter your Email" name="email" required>
         </p>
         <p>
-          <label class="Password" for="password">Password</label>
-          <input type="password" placeholder="Enter your password" name="psw" id="psw" required>
+          <label class="password" for="password">Password</label>
+          <input type="password" placeholder="Enter your password" name="password" id="password" required>
         </p>
         <p>
           <label class="CPassword" for="password">Confirm Password</label>

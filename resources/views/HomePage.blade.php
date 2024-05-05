@@ -58,7 +58,7 @@
         <p> Ut enim ad minim.</p>
       </div>
       <img src="/Assets/Logo.png" class="content-logo">
-      <button class="submit" type="submit"><a href="HomeLessons.html">START NOW!</a></button>
+      <button class="submit" type="submit"><a href="/">START NOW!</a></button>
     </div>
     <!--END CONTENT-->
 

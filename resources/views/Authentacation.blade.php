@@ -17,17 +17,18 @@
     <!--START FORMS-->
     <div class="Authentacation-form">
       <img src="/Assets/Logo.png">
-      <form class="forms-login">
-        <label class="Email" for="email">EMAIL</label>
+      <form class="forms-login" method="POST" action="{{ route("login") }}">
+        @csrf
+        <label class="email" for="email">EMAIL</label>
         <input type="text" placeholder="Enter your email address" name="email" required>
 
         <p>
           <label class="Password" for="password">PASSWORD</label>
-              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              <input type="password" placeholder="Enter Password" name="password" id="password" required>
               <i class="bi bi-eye-slash" id="togglePassword"></i>
         </p>
       
-        <button class="submit" type="submit"><a href="/homepage">Sign In</a></button>
+        <button class="submit" type="submit">Sign In</button>
         <div class="form-bottom">  <a  class="link-left" href="/signup">Sign Up</a> <a class="link-right">Forgot Password?</a> </div>
       </form>
         
