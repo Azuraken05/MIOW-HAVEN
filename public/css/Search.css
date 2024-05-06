@@ -1,15 +1,48 @@
+  .Main{
+    background-color: #1A171E;
+  }
+  .title-container{
+    position: relative;
+    width: 100%;
+    z-index: auto;
+    top: calc(10% + 30px);
+    left: 45%;
+    color: #D4CBE0;
+  }
+
+  .navigation-container{
+    position: relative;
+    width: 100%;
+    z-index: auto;
+    top: calc(15% + 30px);
+    left: 13%;
+    color: #D4CBE0;
+  }
+  .navigation-container a{
+    cursor: pointer;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #D4CBE0;
+  }
+  .navigation-container a:hover{
+    text-shadow: 0 0 5px #ccbaff;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #D4CBE0; /* Safari */  
+    text-decoration-color: #D4CBE0;
+  }
+
   .Upload-Search{
     position: relative;
     width: 100%;
     z-index: auto;
-    top: calc(7% + 30px);
-    left: calc(5% + 7px);
+    top: calc(20% + 30px);
+    left: 13%;
   }
 
   .btn-upload{  
     position: relative;
     z-index: auto;
-    width: 300px;
+    width: 30%;
     padding: 10px 15px;
     font-size: 16px;
     border: 1px solid #ccc;

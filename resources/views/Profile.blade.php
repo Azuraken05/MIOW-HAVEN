@@ -14,24 +14,22 @@
     <div class="Main">
         <!--START NAVIGATION-->
         <header>
-          <div class="svg-container">
-            <nav class="navigation">
-              <img class="Profile" src="Assets\Hamburger\Profile.jpg">
-              <p>@GwapoKo123</p>
-              <div class="BEGINNER"> STUDENT </div>
-              <a href="HomePage.html">HOMEPAGE</a>
-              <a href="HomeLessons.html">DRAWING LESSONS</a>
-              <a href="#">COMMISSION</a>
-            </nav>
-            <button class="hamburger">
-              <div class="bar"></div>
-            </button>
-    
-            <button class="music">
-              <img src="Assets\Hamburger\Music.png" class="music-btn">
-            </button>
-          </div>
-        </header>
+        <div class="svg-container">
+          <div class="topnav-text">MIOW</div>
+          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
+          <nav class="navigation">
+            <img class="Profile" src="Assets\Shhh.jpg">
+            <p>@GwapoKo123</p>
+            <div class="BEGINNER"> STUDENT </div>
+            <a href="/homepage">HOMEPAGE</a>
+            <a href="/homelesson">DRAWING LESSONS</a>
+            <a href="/artgallery">ART GALLERY</a>
+          </nav>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+      </header>
         <!--END NAVIGATION-->
 
         <!--Profile Page-->

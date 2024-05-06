@@ -35,7 +35,7 @@ Route::get('/profile', function () {
     return view('Profile');
 });
 
-Route::get('/artistpage', function () {
+Route::get('/communitypage', function () {
     $users = User::whereNot("type", "admin")->get();
     return view('ArtistPage', ["users" => $users]);
 });

@@ -23,22 +23,22 @@
 
     <!--START NAVIGATION-->
     <header>
-      <div class="svg-container">
-        <div class="topnav-text">MIOW</div>
-        <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
-        <nav class="navigation">
-          <img class="Profile" src="Assets\Shhh.jpg">
-          <p>@GwapoKo123</p>
-          <div class="BEGINNER"> STUDENT </div>
-          <a href="/homepage">HOMEPAGE</a>
-          <a href="/homelesson">DRAWING LESSONS</a>
-          <a href="#">SKETCHPAD</a>
-        </nav>
-        <button class="hamburger">
-          <div class="bar"></div>
-        </button>
-      </div>
-    </header>
+        <div class="svg-container">
+          <div class="topnav-text">MIOW</div>
+          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
+          <nav class="navigation">
+            <img class="Profile" src="Assets\Shhh.jpg">
+            <p>@GwapoKo123</p>
+            <div class="BEGINNER"> STUDENT </div>
+            <a href="/homepage">HOMEPAGE</a>
+            <a href="/homelesson">DRAWING LESSONS</a>
+            <a href="/artgallery">ART GALLERY</a>
+          </nav>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+      </header>
     <!--END NAVIGATION-->
 
     <!--TITLE-->
@@ -56,63 +56,42 @@
             <path d="M15 19l-7-7 7-7"/>
           </svg>
         </button>
+
         <div class="slides">
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a>          
-            
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/1c/48/96/1c48964443de7c72e234b01fd0aadc3f.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
-        </div>
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
+
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
+
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
+
+        <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="placeholder/placeholder-image.jpg" alt="Placeholder image" class="image" />
+        </a> 
+      </div>
+
         <button id="nextBtn" class="carousel-button next">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
             <path d="M9 5l7 7-7 7"/>
@@ -122,8 +101,9 @@
     </div>
     <!--END MODULE-->
 
-      <!--START MODULE-->
-      <div class="svg-Lcontainer">
+    <!--START MODULE-->
+    <div class="svg-Lcontainer">
+      <div class="top-module"><a>VIDEO LESSON</a></div>
       <div class="carousel">
         <button id="prevBtn" class="carousel-button prev">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
@@ -131,54 +111,32 @@
           </svg>
         </button>
         <div class="slides">
+   
+        <a href="#" class="slide" >
+            <video src="video tutorial/Easy Drawings for Kids _ How to draw a cute Ladybud.mp4" onmouseover="showText(this)" onmouseout="hideText(this)" alt="placeholder/video-player-placeholder.png" class="image" controls>
+            </video>
+        </a>    
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a>     
+        <a href="#" class="slide" >
+            <video src="video tutorial/Easy Drawings for Kids _ How to draw a cute Ladybud.mp4" onmouseover="showText(this)" onmouseout="hideText(this)" alt="Placeholder image" class="image" controls>
+            </video>
+        </a>  
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a>  
+        <a href="#" class="slide" >
+            <video src="video tutorial/MAWD.mov" onmouseover="showText(this)" onmouseout="hideText(this)" alt="Placeholder image" class="image" controls>
+            </video>
+        </a>  
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" >
+            <video src="video tutorial/How to draw a Cat Step by Step _ Cat Drawing Lesson.mp4" onmouseover="showText(this)" onmouseout="hideText(this)" alt="Placeholder image" class="image" controls>
+            </video>
+        </a>  
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
+        <a href="#" class="slide" >
+            <video src="video tutorial/how to draw rabbit drawing from 22 number easy step by step@DrawingTalent.mp4" onmouseover="showText(this)" onmouseout="hideText(this)" alt="Placeholder image" class="image" controls>
+            </video>
+        </a>  
 
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="https://i.pinimg.com/564x/3f/0b/93/3f0b938f02d0c76745bcb016f14f1b7b.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
-          </a> 
         </div>
         <button id="nextBtn" class="carousel-button next">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
@@ -191,12 +149,19 @@
 
     <!--START SKETCHPAD-->
     <div class="svg-container-center">
+      <span>DRAW NOW!</span>
+      <p class="text-bottom">You have.</p>
       <button class="sketchpad-button"><p>SKETCHPAD</p></button>
     </div>
     <!--END SKETCHPAD-->
 
     <!--BOTTOM TEXT-->
-
+    <div class="svg-container-bottom">
+      <span>TEACH</span>
+      <p class="text-bottoms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+      <p class="text-botoms">do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button class="teach-button"><p>START TODAY</p></button>
+    </div>
     <!--END BOTTOM TEXT-->
   </div>
 
