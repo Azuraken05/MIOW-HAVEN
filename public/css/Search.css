@@ -10,6 +10,7 @@
     color: #D4CBE0;
   }
 
+/*NAVIGATION*/
   .navigation-container{
     position: relative;
     width: 100%;
@@ -31,6 +32,7 @@
     text-decoration-color: #D4CBE0;
   }
 
+  /*UPLOAD*/
   .Upload-Search{
     position: relative;
     width: 100%;
@@ -45,12 +47,13 @@
     width: 30%;
     padding: 10px 15px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 12px;
     outline: none;
     left: 30px;
-    background-color: #9984D1;
+    background-color: #523F6D;
     cursor: pointer;
+    color: #FFFFFF;
   }
 
   .btn-upload:hover{

@@ -40,10 +40,32 @@
         </div>
       </header>
     <!--END NAVIGATION-->
+
+    <!--TITLE-->
+      <div class="title-container">
+        <h1>COMMUNITY</h1>
+      </div>
+    <!--END TITLE-->
+    <!--navigation-->
+      <div class="navigation-container">
+        <a href="/artgallery">ARTWORKS</a>
+        <a href="/communitypage">ARTIST</a>
+      </div>
+    <!--end navigation-->
+    
+    <!--Start Search and upload-->
+        <div class="Upload-Search">
+        <form>
+            <div class="search-bar" style="display: flex; align-items: center;">
+                <input type="text" placeholder="Search..." id="search-input" style="flex-grow: 1;">
+                <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+        </form>
+      </div>
+    <!--End Search-->
     
     <!--START ABOUT-->
     <div class="svg-Pcontainer">
-      <img src="Assets/aboutLogo.png" class="logo-about">
     </div>
     <!--END ABOUT-->
   </div>

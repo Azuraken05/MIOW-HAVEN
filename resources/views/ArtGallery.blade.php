@@ -47,19 +47,20 @@
       </div>
       <!--END TITLE-->
 
-      <!--TITLE-->
+      <!--navigation-->
       <div class="navigation-container">
         <a href="/artgallery">ARTWORKS</a>
         <a href="/communitypage">ARTIST</a>
       </div>
-      <!--END TITLE-->
+      <!--end navigation-->
+
       <!--Start Search and upload-->
       <div class="Upload-Search">
         <form>
             <div class="search-bar" style="display: flex; align-items: center;">
                 <input type="text" placeholder="Search..." id="search-input" style="flex-grow: 1;">
                 <a href="#"><i class="fa fa-search"></i></a>
-                <button class="btn-upload" onclick="openModal()" type="button">Upload</button>
+                <button class="btn-upload" onclick="openModal()" type="button">Upload Art</button>
             </div>
             <div id="popup" class="modal">
                 <div class="modal-content">
