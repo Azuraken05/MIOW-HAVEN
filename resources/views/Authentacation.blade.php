@@ -17,6 +17,7 @@
     <!--START FORMS-->
     <div class="Authentacation-form">
       <img src="Assets/homepageLogo.png">
+      <p class="Sign-upWelcome">Welcome back to MIOW</p>
       <form class="forms-login" method="POST" action="{{ route("login") }}">
         @csrf
         <label class="email" for="email">EMAIL</label>

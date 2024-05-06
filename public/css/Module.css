@@ -1,6 +1,12 @@
 body{
   font-family: "Inter", sans-serif;
 }
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #1A171E;
+}
 .svg-Tcontainer{
   position: absolute;
   top: 20%; /* Position the container at the vertical center */

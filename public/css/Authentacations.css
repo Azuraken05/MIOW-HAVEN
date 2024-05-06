@@ -10,6 +10,18 @@
     margin-top: calc(5% + 1vw);
     margin-left: calc(36% + 6vw);
 }
+.Sign-upWelcome{
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 5%;
+    position: absolute;
+    font-size: 25px;
+    color: #D4CBE0; /* Set the color of the label text */
+    font-weight: 700;
+    line-height: 10px;
+    font:'Plus Jakarta Sans';
+}
 
 
 /* Input styles */

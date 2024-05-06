@@ -5,10 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MIOW</title>
-  <link href="CSS\Template.css" rel="stylesheet" type="text/css" /> <!-- TEMPLATE CSS -->
-  <link href="CSS\Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
+  <!--fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
+
+  <!--style sheet-->
+  <link href="/css/Template.css" rel="stylesheet" type="text/css"> <!--TEMPLATE LAY-OUT-->
+  <link href="/css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
+  
+  <!--Module CSS-->
   <link href="CSS\Module.css" rel="stylesheet" type="text/css" /> <!--Module CSS-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap">
 </head>
 
 <body>
@@ -18,6 +24,8 @@
     <!--START NAVIGATION-->
     <header>
       <div class="svg-container">
+        <div class="topnav-text">MIOW</div>
+        <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
         <nav class="navigation">
           <img class="Profile" src="Assets\Shhh.jpg">
           <p>@GwapoKo123</p>
