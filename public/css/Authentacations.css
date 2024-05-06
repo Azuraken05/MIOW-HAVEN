@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
     grid-gap: 10px ;
+    background-color: #1A171E;
 }
 .Authentacation-form img{
     width:17%;
@@ -44,14 +45,14 @@ input[type=password] {
     transform: translateX(-50%); /* Center the inputs horizontally */
     font-size: 12px;
 }
-.Email, .Password {
+.email, .Password {
     position: absolute;
     top: 80%; /* Adjust the top position as needed */
     font-size: 15px;
-    color: #000000; /* Set the color of the label text */
+    color: #D4CBE0; /* Set the color of the label text */
     font-weight: 700;
 }
-.Email{
+.email{
     top: calc(25% + 11vw) ;
     left: calc(35% + 1.9vw); /* Adjust the left position for the email field */
 }
@@ -78,9 +79,19 @@ input[type=password] {
     gap: 0px;
     border-radius: 12px 12px 12px 12px;
     opacity: 0px;
-    background-color: #A070A8;
-    
+    background-color: #342D3F;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF; /* Set the color of the label text */
+    font-family: Inter;
+    font-weight: 500;
+    text-align: center;
 }
+.submit:hover{
+    background-color: #1A171E;
+}
+
 .password-input-container input {
     padding-right: 30px; /* Adjust as needed to accommodate the icon */
 }
@@ -92,27 +103,18 @@ input[type=password] {
     cursor: pointer;
 }
 
-.submit a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #FFFFFF; /* Set the color of the label text */
-    font-family: Inter;
-    font-weight: 500;
-    text-align: center;
-}
-
 .form-bottom {
     font-size: 1.2vw;
     position: absolute;
     top: calc(480px + 10%);
     left: calc(49% + 2.4vw);
-    color: #747171;
+    color: #83778F;
     transform: translateX(-50%);
 }
 
 .form-bottom a {
     text-decoration: none;
-    color: #A070A8;
+    color: #83778F;
     font-weight: 700;
     cursor: pointer;
 }

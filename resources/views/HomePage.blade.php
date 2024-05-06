@@ -5,18 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MIOW</title>
+  <!--fonts-->
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link href="/css/Template.css" rel="stylesheet" type="text/css">
-  <link href="/css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
 
-  <link href="CSS/HomePage.css" rel="stylesheet" type="text/css" /> <!-- MAIN CONTENT CSS-->
-  <style>
-  </style>
+  <!--style sheet-->
+  <link href="/css/Template.css" rel="stylesheet" type="text/css"> <!--TEMPLATE LAY-OUT-->
+  <link href="/css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
+
+  <!-- MAIN CONTENT CSS-->
+  <link href="CSS/HomePage.css" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
 
+  <!--CONTAINER-->
   <div class="Main">
     <!--START NAVIGATION-->
     <header>
@@ -120,12 +123,19 @@
         <div class="slides">
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Thousand Yard Stare Cat Sticker.jpg" alt="Placeholder image" class="image" />
+            <img src="profiles/Barro.png" alt="Placeholder image" class="image" />
             <div class="text-overlay">
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>
             </div>
-            <p class="slide-name">AAAA</p> <!-- Add the name or title here -->
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Tan.png" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
@@ -134,7 +144,46 @@
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>
             </div>
-            <p class="slide-name">AAAA</p> <!-- Add the name or title here -->
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Araña .JPG" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Ogario.jpg" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Catiban.jpg" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Ybanez.JPG" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Polea.jpg" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
@@ -143,26 +192,40 @@
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>
             </div>
-            <p class="slide-name">AAAA</p> <!-- Add the name or title here -->
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Waifu.jpg" alt="Placeholder image" class="image" />
+            <img src="profiles/Manatad.jpg" alt="Placeholder image" class="image" />
             <div class="text-overlay">
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>
             </div>
-            <p class="slide-name">AAAA</p> <!-- Add the name or title here -->
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Waifu.jpg" alt="Placeholder image" class="image" />
+            <img src="profiles/Lopez.jpg" alt="Placeholder image" class="image" />
             <div class="text-overlay">
               <h3 class="slide-title">Title</h3>
               <p class="slide-description">Description</p>
             </div>
-            <p class="slide-name">AAAA</p> <!-- Add the name or title here -->
           </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Tsugawa.jpg" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
+          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="profiles/Baliza.JPG" alt="Placeholder image" class="image" />
+            <div class="text-overlay">
+              <h3 class="slide-title">Title</h3>
+              <p class="slide-description">Description</p>
+            </div>
+          </a>
+
         </div>
 
         <button id="nextBtn" class="carousel-button next">
@@ -178,9 +241,38 @@
     </div>
     <!--END MEMBERS-->
 
-    <footer class="svg-container-footer">
-      <!-- Footer content goes here -->
-    </footer>
+    <!--START FOOTER-->
+    <img src="Assets/miow cat hugging brush.png" class="logo-footers">
+    <div class="svg-container-footer">
+      <div class="footer-titled">
+        <p class="footer-title">MIOW</p>
+      </div>
+
+      <div class="footer-text">
+        <h2 class="footer-header">Tell us about your experience</h2>
+        <div class="footer-content">
+          <p>At MIOW, we are committed to providing our users with an exceptional experience. 
+          <p>We value your feedback and strive to make necessary improvements 
+          <p>to our platform to enhance your overall satisfaction. 
+          <p>Your thoughts, experiences, and suggestions are important to us, and 
+          <p>we encourage you to share them with us so that we can continue to improve and exceed your expectations. 
+          <p>With your help, we can ensure that MIOW remains the best platform for all your needs.</p>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <span>Email</span><br>
+        <span>Website Link</span><br>
+        <span>Phone</span><br>
+      </div>
+
+      <div class="footer-media">
+        <p>miowhaven@gmail.com</p><br>
+        <p>0967 844 2492 <br> 0948 911 0636</p><br>
+      </div>
+
+    </div>
+    <!--END FOOTER-->
   </div>
 
   <script src="SCIRPT\Authentacation.js"></script>

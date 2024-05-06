@@ -16,7 +16,7 @@
   <div class="Main">
     <!--START FORMS-->
     <div class="Authentacation-form">
-      <img src="/Assets/Logo.png">
+      <img src="Assets/homepageLogo.png">
       <form class="forms-login" method="POST" action="{{ route("login") }}">
         @csrf
         <label class="email" for="email">EMAIL</label>

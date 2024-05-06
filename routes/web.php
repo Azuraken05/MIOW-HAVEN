@@ -6,6 +6,7 @@ use App\Http\Controllers\LessonController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
 
 
 
@@ -35,7 +36,8 @@ Route::get('/profile', function () {
 });
 
 Route::get('/artistpage', function () {
-    return view('ArtistPage');
+    $users = User::whereNot("type", "admin")->get();
+    return view('ArtistPage', ["users" => $users]);
 });
 
 /**

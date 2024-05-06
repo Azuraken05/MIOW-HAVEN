@@ -6,7 +6,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #1A171E;
 }
 /*FOR LOGO*/
 .homepage-logo{
@@ -271,8 +270,8 @@
 
 .slide {
     flex: 0 0 auto;
-    width: 30vw; /* Adjusted for responsiveness */
-    height: 30vh; /* Adjusted for responsiveness */
+    width: 35vw; /* Adjusted for responsiveness */
+    height: 35vh; /* Adjusted for responsiveness */
     margin: 0 2vw; /* Adjusted for responsiveness */
     background-color: #f0f0f0;
     border-radius: 0.25rem;
@@ -395,6 +394,77 @@
     text-align: center;
     box-sizing: border-box;
 }
+
+/*FOOTER*/
+.svg-container-footer{
+    position: absolute;
+    top: calc(280% + 20vw);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    background-color: #1A171E;
+    overflow: hidden;
+}
+.logo-footers {
+    margin-top: 147%;
+    width: 120px;
+    height: 120px;
+    margin-left: 5%;
+    z-index: 600;
+}
+.footer-titled {
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.footer-title {
+    font-size: 25px;
+    color: #523F6D;
+    font-family: 'Mochiy Pop One';
+}
+.footer-text{
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.footer-header{
+    font-size: 20px;
+    color: #D4CBE0;
+}
+.footer-content{
+    top: 2%; /* Adjust as needed */
+    color: #9C8BB8;
+    font-size: 10px;
+}
+.footer-content p{
+    margin: 5px;
+    padding: 0;
+}
+.footer-social{
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.footer-social span{
+    color: #D4CBE0;
+    line-height: 30px;
+}
+.footer-media{
+    position: absolute;
+    top: 55%; /* Adjust as needed */
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.footer-media p{
+    color: #9C8BB8;
+    font-size: 12px;
+}
+
 /* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
     /* Adjustments for smaller screens */

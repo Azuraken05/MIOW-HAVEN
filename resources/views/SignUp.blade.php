@@ -39,7 +39,7 @@
           <input type="cpassword" placeholder="Confirm your password" name="cpsw" id="cpsw" required>
         </p>
       
-        <button class="submit" type="submit"><a href="/auth">Sign In</a></button>
+        <button class="submit" type="submit"><a href="/login">Sign In</a></button>
       </form>
         
     </div>
