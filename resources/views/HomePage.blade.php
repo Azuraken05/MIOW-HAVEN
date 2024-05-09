@@ -27,12 +27,18 @@
           <div class="topnav-text">MIOW</div>
           <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
           <nav class="navigation">
-            <img class="Profile" src="Assets\Shhh.jpg">
-            <p>@GwapoKo123</p>
-            <div class="BEGINNER"> STUDENT </div>
-            <a href="/homepage">HOMEPAGE</a>
-            <a href="/homelesson">DRAWING LESSONS</a>
-            <a href="/artgallery">ART GALLERY</a>
+            <a class="profile-image" href="/post">
+                <img class="Profile" src="Assets\Profile.jpg">
+                <p>Azuraken</p>
+            </a>
+            <div class="BEGINNER"> 
+                STUDENT
+            </div>
+            <div class="nav-background">
+                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
+                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
+                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
+            </div>
           </nav>
           <button class="hamburger">
             <div class="bar"></div>
@@ -124,106 +130,58 @@
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Barro.png" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
+            <div class="slided" onmouseover="showText(this)" onmouseout="hideText(this)">
+              <h3>Barro</h3>
+              <p>Description</p>
             </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Tan.png" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Waifu.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
+            <img src="profiles\Forones.jpg" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Araña .JPG" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Ogario.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Catiban.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Ybanez.JPG" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Polea.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="Assets\Waifu.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
+            <img src="profiles\Collintes.jpg" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Manatad.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Lopez.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Tsugawa.jpg" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
             <img src="profiles/Baliza.JPG" alt="Placeholder image" class="image" />
-            <div class="text-overlay">
-              <h3 class="slide-title">Title</h3>
-              <p class="slide-description">Description</p>
-            </div>
           </a>
 
         </div>
