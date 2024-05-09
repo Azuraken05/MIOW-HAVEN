@@ -31,8 +31,16 @@ Route::get('/artgallery', function () {
     return view('ArtGallery');
 });
 
-Route::get('/profile', function () {
+Route::get('/post', function () {
     return view('Profile');
+});
+
+Route::get('/about', function () {
+    return view('AboutMe');
+});
+
+Route::get('/ownedlesson', function () {
+    return view('Lessons');
 });
 
 Route::get('/communitypage', function () {

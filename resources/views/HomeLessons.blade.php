@@ -27,12 +27,18 @@
           <div class="topnav-text">MIOW</div>
           <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
           <nav class="navigation">
-            <img class="Profile" src="Assets\Shhh.jpg">
-            <p>@GwapoKo123</p>
-            <div class="BEGINNER"> STUDENT </div>
-            <a href="/homepage">HOMEPAGE</a>
-            <a href="/homelesson">DRAWING LESSONS</a>
-            <a href="/artgallery">ART GALLERY</a>
+            <a class="profile-image" href="/post">
+                <img class="Profile" src="Assets\Profile.jpg">
+                <p>Azuraken</p>
+            </a>
+            <div class="BEGINNER"> 
+                STUDENT
+            </div>
+            <div class="nav-background">
+                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
+                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
+                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
+            </div>
           </nav>
           <button class="hamburger">
             <div class="bar"></div>
@@ -151,7 +157,7 @@
     <div class="svg-container-center">
       <span>DRAW NOW!</span>
       <p class="text-bottom">You have.</p>
-      <button class="sketchpad-button"><p>SKETCHPAD</p></button>
+      <a href="https://kleki.com/"><button class="sketchpad-button"><p>SKETCHPAD</p></button></a>
     </div>
     <!--END SKETCHPAD-->
 

@@ -72,24 +72,6 @@
         <!--END NAVIGATION-->
 
         <!--START GALLERY-->
-        <div class="pin_container">
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_small"></div>
-            <div class="card card_small"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_large"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-        </div>
         <!--END ART GALLERY-->
     </div>
 <script src="SCIRPT\Authentacation.js"></script>
