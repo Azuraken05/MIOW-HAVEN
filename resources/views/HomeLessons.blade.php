@@ -151,7 +151,7 @@
     <div class="svg-container-center">
       <span>DRAW NOW!</span>
       <p class="text-bottom">You have.</p>
-      <button class="sketchpad-button"><p>SKETCHPAD</p></button>
+      <a href="https://kleki.com/"><button class="sketchpad-button"><p>SKETCHPAD</p></button></a>
     </div>
     <!--END SKETCHPAD-->
 
