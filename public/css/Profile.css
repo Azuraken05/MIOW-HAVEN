@@ -93,6 +93,8 @@ table {
     align-items: center;
 }
 .nav-container a{
+    font-size: 20px;
+    font-family: 'Inter';
     color: #FFFFFF;
     top: 10%;
     text-decoration: none;

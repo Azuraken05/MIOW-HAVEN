@@ -65,7 +65,7 @@
 
 .logo-text {
     position: absolute;
-    top: calc(21% + 13vw);
+    top: calc(22% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
     font-family: 'Patrick Hand SC';
 }
@@ -79,7 +79,7 @@
 
 .logo-textG{
     position: absolute;
-    top: calc(34% + 13vw);
+    top: calc(36% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
 }
 
@@ -91,7 +91,7 @@
 }
 .logo-textF{
     position: absolute;
-    top: calc(42% + 13vw);
+    top: calc(46% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
 }
 .logo-textF p{
@@ -105,7 +105,7 @@
     position: absolute;
     width: 15vw;
     height: 3vw;
-    top: calc(48% + 13vw);
+    top: calc(55% + 13vw);
     left: calc(10% + 1.3vw);
     border-radius: 25px 25px;
     opacity: 1;

@@ -6,10 +6,12 @@
     <title>Profile</title>
     <link href="css/Template.css" rel="stylesheet" type="text/css" /> <!-- TEMPLATE CSS -->
     <link href="css/Hamburger.css" rel="stylesheet" type="text/css" /> <!-- NAVIGATION CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="css/Profile.css" rel="stylesheet" type="text/css" /> <!--PROFILE TEMPLATE CSS-->
     
-    <link href="css/Profile.css" rel="stylesheet" type="text/css" />
+    <!--fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
 </head>
 <body>
     <div class="Main">
