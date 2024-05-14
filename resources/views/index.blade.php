@@ -8,6 +8,7 @@
   <!--fonts-->
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
 
   <!--style sheet-->
   <link href="/css/Template.css" rel="stylesheet" type="text/css"> <!--TEMPLATE LAY-OUT-->
@@ -25,10 +26,10 @@
     <header>
         <div class="svg-container">
           <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
+          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
           <nav class="navigation">
             <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets\Profile.jpg">
+                <img class="Profile" src="Assets/Profile.jpg">
                 <p>Azuraken</p>
             </a>
             <div class="BEGINNER"> 
@@ -66,10 +67,10 @@
       </div>
 
       <div class="logo-textF">
-        <p>Join now and start your artistic journey today</p>
+        <p>Join now and start your artistic journey today!</p>
       </div>
 
-      <button class="submit" type="submit"><a href="/homelesson">Explore Now</a></button>
+      <button class="submit" type="submit"><a href="/homelesson">EXPLORE NOW</a></button>
     </div>
     <!--END CONTENT-->
 
@@ -93,13 +94,14 @@
         <p>prioritizes the needs and preferences of its users. The</p>
         <p>following will be offered by our website: </p>
 
-        <p class="about-texttop">🗹 Users can access a diverse array of artistic course from different artists.</p>
-        <p>🗹 Free or paid learning resources from artists.</p>
-        <p>🗹 Commission services by artists.</p>
+        <p class="about-texttop">🗹 Commission services by artists. </p>
+        <p>🗹 Posting of own art blogs.</p>
+        <p>🗹 Art fair</p>
 
-        <p class="about-texttops">The website's features are designed to create a bridge </p>
-        <p>between artists and learners, providing a haven for artistic </p>
-        <p>content where both parties can benefit from their passion.</p>
+        <p class="about-texttops">The website's features are designed to create a bridge</p>
+        <p>between artists and potential customers, providing a haven</p>
+        <p>for artistic content where both parties can benefit from</p>
+        <p>the website.</p>
       </div>
     </div>
     <!--END ABOUT-->
@@ -112,7 +114,8 @@
       <svg  viewBox="0 0 116 6"  xmlns="http://www.w3.org/2000/svg" class="line-member">
         <rect/>
       </svg>
-      <p class="Member-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+      <p class="Member-Description">MIOW is a group that comprises 13 individuals, including programmers, researchers, and artists.</p>
+      <p class="Member-Descriptions">This team works collaboratively to achieve its goals, and each member brings unique skills and expertise to the table.</p>
     </div>
 
 

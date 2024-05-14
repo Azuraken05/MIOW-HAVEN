@@ -42,7 +42,7 @@
     margin-top: 40px;
     position: fixed;
     top: 1%;
-    left: -100%;
+    left: 50%;
     width: 200px;
     min-height: 100vh;
     display: block;
@@ -108,39 +108,51 @@
     line-height: 23.17px; /* Added line height */
 }
 
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child elements horizontally */
+    text-decoration: none; /* Remove underline from link */
+    color: #1A171F;
+    border-radius: 10px;
+    border-color: #1A171E;
+    max-width: 100%;
+}
+
+.border-image {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    width: 90px; /* Ensure border-image has a defined width */
+    height: 90px; /* Ensure border-image has a defined height */
+}
+
 .Profile {
     width: 90px;
     height: 90px;
-    left: 125px;
-    gap: 0px;
-    border: 7px 0px 0px 0px;
-    opacity: 0px;
-    margin-left: 55px;
     border-radius: 50%; /* Makes the image round */
+    border: 7px solid transparent; /* Fix the border property */
+    margin: 0; /* Reset margin */
+    opacity: 0.3; /* Adjust opacity correctly */
 }
 
-
-.nav-bars:hover{
+.nav-bars:hover {
     background-color: #FFFFFF;
 }
-.topnav-text{
-    color: #FFFFFF;
+
+.topnav-text {
+    color: #523F6D;
     z-index: 500;
     position: fixed;
-    left: 70px;
-    font-weight:bolder;
+    left: 50px;
+    font-weight: bolder;
     font-size: 30px;
 }
-.topnav-logo{
-    width: 40px;
+
+.topnav-logo {
+    width: 60px;
     height: auto;
-    margin-left: 30px;
-}
-.profile-image{
-    text-decoration: none;
-    max-width:100% ;
-    background-color: none;
-    color: #1A171F;
+    margin-left: 15px;
 }
 
 /* Media query for smaller screens */

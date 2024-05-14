@@ -13,16 +13,20 @@
 </head>
 <body>
     <div class="Main">
-        <!--START NAVIGATION-->
+    <!--START NAVIGATION-->
         <header>
         <div class="svg-container">
           <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
-          <nav class="navigation">
-            <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets\Profile.jpg">
-                <p>Azuraken</p>
-            </a>
+          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
+          <div class="navigation">
+            <div>
+                <a class="profile-image" href="/post">
+                    <div class="border-image">
+                        <img class="Profile" src="Assets/Profile.jpg">
+                    </div>
+                    <p>Azuraken</p>
+                </a>
+            </div>
             <div class="BEGINNER"> 
                 STUDENT
             </div>
@@ -31,13 +35,13 @@
                 <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
                 <a class="nav-bars" href="/artgallery">ART GALLERY</a>
             </div>
-          </nav>
+          </div>
           <button class="hamburger">
             <div class="bar"></div>
           </button>
         </div>
       </header>
-        <!--END NAVIGATION-->
+    <!--END NAVIGATION-->
 
         <!--Profile Page-->
         <div class="profile-container">
@@ -49,9 +53,8 @@
                             <h3>Azuraken</h3>
                             <table>
                                 <tr>
-                                    <td>69 Post</td>
+                                    <td>0 Post</td>
                                     <td>143 Followers</td>
-                                    <td>10 Following</td>
                                 </tr>
                             </table>
                         </div>
@@ -63,32 +66,19 @@
 
         <!--START NAVIGATION-->
         <div>
-            <nav class="nav-container">
-                <a  class="move-right" href="/post">POSTS</a>
-                <a href="/about">ABOUT ME</a>
-                <a href="/ownedlesson">OWNED LESSONS</a>
-            </nav>
+            <div class="nav-container">
+                    <a  class="move-right" href="/post">POSTS</a>
+                    <a class="move-right"  href="/about">ABOUT ME</a>
+                    <a  class="move-right"  href="/about">REVIEW</a>
+                    <a  class="move-right"  href="/about">BLOG</a>
+            </div>
         </div>
         <!--END NAVIGATION-->
 
         <!--START GALLERY-->
         <div class="pin_container">
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_small"></div>
-            <div class="card card_small"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_medium"></div>
-            <div class="card card_large"></div>
-            <div class="card card_large"></div>
-            <div class="card card_small"></div>
-            <div class="card card_medium"></div>
+            <form>
+            </form>
         </div>
         <!--END ART GALLERY-->
     </div>

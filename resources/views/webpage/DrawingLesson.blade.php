@@ -19,10 +19,10 @@
     <header>
         <div class="svg-container">
           <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
+          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
           <nav class="navigation">
             <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets\Profile.jpg">
+                <img class="Profile" src="Assets/Profile.jpg">
                 <p>Azuraken</p>
             </a>
             <div class="BEGINNER"> 

@@ -1,8 +1,9 @@
 /* Styles for desktop and larger screens */
 .Body{
-    font-family: 'Inter';
+    font-family: 'Mochiy Pop One';
 }
 .Main {
+    font-family: 'Mochiy Pop One';
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -44,9 +45,9 @@
     position: absolute;
     top: calc(10% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
-    font-size: 2.7vw; /* Adjusted for responsiveness */
+    font-size: 2.2vw; /* Adjusted for responsiveness */
     color: #D4CBE0;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 
@@ -57,59 +58,65 @@
     font-size: 1.5vw; /* Adjusted for responsiveness */
     color: #9C8BB8;
     margin-bottom: 5vh; /* Adjusted for responsiveness */
-    font-weight: 700;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .logo-text {
     position: absolute;
     top: calc(21% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
+    font-family: 'Patrick Hand SC';
 }
 
 .logo-text p {
-    font-size: 0.9vw; /* Adjusted for responsiveness */
+    font-size: 1.2vw; /* Adjusted for responsiveness */
     color: #F6F7F1;
     line-height: 0.5; /* Adjusted for responsiveness */
+    font-family: 'Patrick Hand SC';
 }
 
 .logo-textG{
     position: absolute;
-    top: calc(32% + 13vw);
+    top: calc(34% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
 }
 
 .logo-textG p{
-    font-size: 0.9vw; /* Adjusted for responsiveness */
+    font-size: 1.2vw; /* Adjusted for responsiveness */
     color: #F6F7F1;
     line-height: 0.5; /* Adjusted for responsiveness */
+    font-family: 'Patrick Hand SC';
 }
 .logo-textF{
     position: absolute;
-    top: calc(40% + 13vw);
+    top: calc(42% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
 }
 .logo-textF p{
-    font-size: 0.9vw; /* Adjusted for responsiveness */
-    color: #F6F7F1;
+    font-size: 1.2vw; /* Adjusted for responsiveness */
+    color: #D4CBE0;
     line-height: 0.5; /* Adjusted for responsiveness */
-    font-weight: 600;
+    font-family: 'Patrick Hand SC';
 }
 
 .submit {
     position: absolute;
     width: 15vw;
     height: 3vw;
-    top: calc(45% + 13vw);
+    top: calc(48% + 13vw);
     left: calc(10% + 1.3vw);
     border-radius: 25px 25px;
     opacity: 1;
-    background-color: #FFFFFF;
+    background-color: #D4CBE0;
+    border-color: #fff;
     cursor: pointer;
     z-index: 500;
 }
 
 .submit:hover{
-    background-color: #D4CBE0;
+    background-color: #F6F7F1;
 }
 
 .submit a {
@@ -146,7 +153,8 @@
 
 .about-title,
 .about-text {
-    left: calc(40vw + 10px);
+    left: calc(45vw + 10px);
+    font-family: 'Inter', sans-serif;
 }
 
 .about-title {
@@ -234,9 +242,16 @@
     position: absolute;
     text-decoration: none;
     top: calc(6.5vw + 2%); /* Adjusted to be under the line-member */
-    left: calc(1.7vw + 10%); /* Positioned in alignment with line-member */
-    font-size: 1.8vw;
-    color: #9C8BB8;
+    left: 20%;
+    font-size: 1.4vw;
+    color: #F6F7F1;
+    font-family: 'Inter', sans-serif;
+}
+.svg-Scontainer .Member-Descriptions{
+    top: calc(8.9vw + 2%); /* Adjusted to be under the line-member */
+    left: 13%;
+    font-size: 1.4vw;
+    color: #F6F7F1;
     font-family: 'Inter', sans-serif;
 }
 

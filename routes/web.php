@@ -8,44 +8,49 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
 
-
-
-Route::get('/login', function () {
-    return view('Authentacation');
+//*MAIN*//
+Route::get('/homepage', function () {
+    return view('index');
 });
 
-Route::get('/homepage', function () {
-    return view('HomePage');
+//*LOGIN AND SIGN UP*//
+Route::get('/login', function () {
+    return view('Authentacation');
 });
 
 Route::get('/signup', function () {
     return view('SignUp');
 });
 
-
+//*WEBPAGES*/
 Route::get('/homelesson', function () {
-    return view('HomeLessons');
+    return view('webpage/HomeLessons');
 });
 
 Route::get('/artgallery', function () {
-    return view('ArtGallery');
+    return view('webpage/ArtGallery');
 });
 
+//* THIS IS FOR PROFILE*//
 Route::get('/post', function () {
-    return view('Profile');
+    return view('profile/Profile');
 });
 
 Route::get('/about', function () {
-    return view('AboutMe');
+    return view('profile/AboutMe');
 });
 
-Route::get('/ownedlesson', function () {
-    return view('Lessons');
+Route::get('/review', function () {
+    return view('profile/review');
+});
+
+Route::get('/blog', function () {
+    return view('profile/blog');
 });
 
 Route::get('/communitypage', function () {
     $users = User::whereNot("type", "admin")->get();
-    return view('ArtistPage', ["users" => $users]);
+    return view('webpage/ArtistPage', ["users" => $users]);
 });
 
 /**

@@ -1,10 +1,4 @@
 /* Set styles for the main container */
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400; /* You can also specify other weights if needed */
-    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-  }
 .Main {
     position: fixed; /* or absolute, depending on your layout */
     top: 0;
@@ -12,7 +6,7 @@
     bottom: 0;
     left: 0;
     background-color: #523F6D;
-    font-family: "Inter", sans-serif;
+    font-family: 'Mochiy Pop One';
     overflow: auto; /* Add scrollbar when content overflows */
 }
 

@@ -13,14 +13,14 @@
 </head>
 <body>
     <div class="Main">
-        <!--START NAVIGATION-->
-        <header>
+    <!--START NAVIGATION-->
+    <header>
         <div class="svg-container">
           <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
+          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
           <nav class="navigation">
             <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets\Profile.jpg">
+                <img class="Profile" src="Assets/Profile.jpg">
                 <p>Azuraken</p>
             </a>
             <div class="BEGINNER"> 
@@ -37,39 +37,40 @@
           </button>
         </div>
       </header>
-        <!--END NAVIGATION-->
+    <!--END NAVIGATION-->
 
-        <!--Profile Page-->
-        <div class="profile-container">
-            <div class="profile-details">
-                <div class="pd-left">
-                    <div class="pd-row">
-                        <img src="Assets/Profile.jpg" alt="Profile" class="pd-image">
-                        <div class="left">
-                            <h3>Azuraken</h3>
-                            <table>
-                                <tr>
-                                    <td>69 Post</td>
-                                    <td>143 Followers</td>
-                                    <td>10 Following</td>
-                                </tr>
-                            </table>
-                        </div>
+    <!--Profile Page-->
+    <div class="profile-container">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="Assets/Profile.jpg" alt="Profile" class="pd-image">
+                    <div class="left">
+                        <h3>Azuraken</h3>
+                        <table>
+                            <tr>
+                                <td>69 Post</td>
+                                <td>143 Followers</td>
+                                <td>10 Following</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <!--END PROFILE-->
+    </div>
+    <!--END PROFILE-->
 
-        <!--START NAVIGATION-->
-        <div>
-            <nav class="nav-container">
+    <!--START NAVIGATION-->
+    <div>
+        <div class="nav-container">
                 <a  class="move-right" href="/post">POSTS</a>
-                <a href="/about">ABOUT ME</a>
-                <a href="/ownedlesson">OWNED LESSONS</a>
-            </nav>
+                <a class="move-right"  href="/about">ABOUT ME</a>
+                <a  class="move-right"  href="/review">REVIEW</a>
+                <a  class="move-right"  href="/about">BLOG</a>
         </div>
-        <!--END NAVIGATION-->
+    </div>
+    <!--END NAVIGATION-->
 
         <!--START GALLERY-->
         <!--END ART GALLERY-->

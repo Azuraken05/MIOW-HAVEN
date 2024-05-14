@@ -14,29 +14,29 @@
 <body>
     <div class="Main">
         <!--START NAVIGATION-->
-        <header>
-        <div class="svg-container">
-          <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/toplogo.png" class="topnav-logo"></div>
-          <nav class="navigation">
-            <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets\Profile.jpg">
-                <p>Azuraken</p>
-            </a>
-            <div class="BEGINNER"> 
-                STUDENT
-            </div>
-            <div class="nav-background">
-                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
-                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
-                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
-            </div>
-          </nav>
-          <button class="hamburger">
-            <div class="bar"></div>
-          </button>
-        </div>
-      </header>
+            <header>
+                <div class="svg-container">
+                    <div class="topnav-text">MIOW</div>
+                    <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
+                    <nav class="navigation">
+                    <a class="profile-image" href="/post">
+                        <img class="Profile" src="Assets/Profile.jpg">
+                        <p>Azuraken</p>
+                    </a>
+                    <div class="BEGINNER"> 
+                        STUDENT
+                    </div>
+                    <div class="nav-background">
+                        <a class="nav-bars" href="/homepage">HOMEPAGE</a>
+                        <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
+                        <a class="nav-bars" href="/artgallery">ART GALLERY</a>
+                    </div>
+                    </nav>
+                    <button class="hamburger">
+                    <div class="bar"></div>
+                    </button>
+                </div>
+            </header>
         <!--END NAVIGATION-->
 
         <!--Profile Page-->
@@ -63,11 +63,12 @@
 
         <!--START NAVIGATION-->
         <div>
-            <nav class="nav-container">
-                <a  class="move-right" href="/post">POSTS</a>
-                <a href="/about">ABOUT ME</a>
-                <a href="/ownedlesson">OWNED LESSONS</a>
-            </nav>
+            <div class="nav-container">
+                    <a  class="move-right" href="/post">POSTS</a>
+                    <a class="move-right"  href="/about">ABOUT ME</a>
+                    <a  class="move-right"  href="/review">REVIEW</a>
+                    <a  class="move-right"  href="/blog">BLOG</a>
+            </div>
         </div>
         <!--END NAVIGATION-->
 
