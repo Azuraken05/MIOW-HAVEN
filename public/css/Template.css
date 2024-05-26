@@ -48,4 +48,5 @@ body {
     background-color:#D4CBE0; 
     opacity: 90%;
     z-index: 1000; /* Set z-index to a higher value */
+    font-family: 'Inter';
 }

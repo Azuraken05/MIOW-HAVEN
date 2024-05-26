@@ -33,9 +33,13 @@
                 STUDENT
             </div>
             <div class="nav-background">
-                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
-                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
-                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
+                <a class="nav-bars" href="/homepage">Homepage</a>
+                <a class="nav-bars" href="/homelesson">Art Blog</a>
+                <a class="nav-bars" href="/artgallery">Art Gallery</a>
+                <a class="nav-bars" href="/artgallery">Community</a>
+                <a class="nav-bars" href="/artgallery">Sketchpad</a>
+                <a class="nav-bars" href="/artgallery">Music Player</a>
+                <a class="nav-bars" href="/artgallery">Setting</a>
             </div>
           </div>
           <button class="hamburger">
