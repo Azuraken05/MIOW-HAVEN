@@ -67,38 +67,40 @@
     position: absolute;
     top: calc(22% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
-    font-family: 'Patrick Hand SC';
+    font-family: "Patrick Hand", cursive;
 }
 
 .logo-text p {
     font-size: 1.2vw; /* Adjusted for responsiveness */
     color: #F6F7F1;
     line-height: 0.5; /* Adjusted for responsiveness */
-    font-family: 'Patrick Hand SC';
+    font-family: "Patrick Hand", cursive;
 }
 
 .logo-textG{
     position: absolute;
     top: calc(36% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
+    font-family: "Patrick Hand", cursive;
 }
 
 .logo-textG p{
     font-size: 1.2vw; /* Adjusted for responsiveness */
     color: #F6F7F1;
     line-height: 0.5; /* Adjusted for responsiveness */
-    font-family: 'Patrick Hand SC';
+    font-family: "Patrick Hand", cursive;
 }
 .logo-textF{
     position: absolute;
     top: calc(46% + 13vw);
     left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
+    font-family: "Patrick Hand", cursive;
 }
 .logo-textF p{
     font-size: 1.2vw; /* Adjusted for responsiveness */
     color: #D4CBE0;
     line-height: 0.5; /* Adjusted for responsiveness */
-    font-family: 'Patrick Hand SC';
+    font-family: "Patrick Hand", cursive;
 }
 
 .submit {

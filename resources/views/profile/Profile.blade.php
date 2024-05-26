@@ -20,17 +20,26 @@
         <div class="svg-container">
           <div class="topnav-text">MIOW</div>
           <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
-          <div class="navigation">
-            <div>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+        
+        <div class="navigation">
+            <div class="profile-background">
+            <svg class="profile-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #808080;">
+                <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+            </svg>
+
                 <a class="profile-image" href="/post">
                     <div class="border-image">
                         <img class="Profile" src="Assets/Profile.jpg">
                     </div>
-                    <p>Azuraken</p>
+                    <p>Anonymous</p>
                 </a>
-            </div>
-            <div class="BEGINNER"> 
-                STUDENT
+                <div class="BEGINNER"> 
+                    Guest
+                </div>
             </div>
             <div class="nav-background">
                 <a class="nav-bars" href="/homepage">Homepage</a>
@@ -42,10 +51,6 @@
                 <a class="nav-bars" href="/artgallery">Setting</a>
             </div>
           </div>
-          <button class="hamburger">
-            <div class="bar"></div>
-          </button>
-        </div>
       </header>
     <!--END NAVIGATION-->
 

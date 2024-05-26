@@ -41,16 +41,17 @@
 .navigation{
     margin-top: 40px;
     position: fixed;
-    top: 1%;
+    top: -1%;
     left:10%;
     width: 200px;
     min-height: 100vh;
     display: block;
-    z-index: 100;
-    background-color:#D4CBE0;
+    z-index: 90;
+    background-color:#342D3F;
     padding-top: 10px;
     transition: 0.4s;
     overflow-y: auto;
+    font-family: 'Inter';
 }
 
 
@@ -69,7 +70,7 @@
     /* border-radius: 5px 5px 5px 5px; */
     border: none;
 
-    color: #785694;
+    color: #F6F7F1;
     text-decoration: none;   
     font-size: 14px; /* Added font size */
     font-weight: 400; /* Added font weight */
@@ -102,17 +103,16 @@
 .BEGINNER{
     display: block;
     text-align: center;
-    width: 130%;
-    max-width: 160px;
+    width: auto; /* Changed to auto for flexible width */
+    max-width: 300px; /* Set a specific max width */
     margin: 0 auto 16px;
     padding: 12px 16px;
     background-color: #1A171E;
-    margin-bottom: 40px;
-    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 
     color: #D4CBE0;
     font-size: 14px; /* Added font size */
-    font-weight: 400; /* Added font weight */
+    font-weight: 200; /* Added font weight */
     line-height: 23.17px; /* Added line height */
 }
 
@@ -125,6 +125,12 @@
     border-radius: 10px;
     border-color: #1A171E;
     max-width: 100%;
+    background-color: #D4CBE0;
+    min-height: 100%;
+    opacity: 100%;
+}
+.profile-image{
+    color: #1A171F;
 }
 
 .border-image {
@@ -133,6 +139,19 @@
     align-items: center; /* Center image vertically */
     width: 90px; /* Ensure border-image has a defined width */
     height: 90px; /* Ensure border-image has a defined height */
+    transform: translateY(4px); /* Move the element down by 10px */
+    border: 5px solid transparent; /* Set border width and make it transparent */
+    border-color: #1A171E;
+    border-radius: 50%; /* Make the border round */
+    /* transform: translateY(-10px); Uncomment and adjust if you want to move it up */
+}
+
+.profile-button{
+    margin-top: 5px;
+    margin-left: 170px;
+    cursor: pointer;
+    background-color: #342D3F;
+    border-radius: 20px;
 }
 
 .Profile {
@@ -144,9 +163,21 @@
     opacity: 0.3; /* Adjust opacity correctly */
 }
 
-.nav-bars:hover {
-    background-color: #FFFFFF;
+.profile-background{
+    text-decoration: none; /* Remove underline from link */
+    color: #1A171F;
+    border-radius: 0px 0px 10px 10px ;
+    border-color: #1A171E;
+    max-width: 100%;
+    background-color: #D4CBE0;
+    min-height: 100%;
+    opacity: 100%;
 }
+
+.profile-background p{
+    color: #1A171F;
+}
+
 
 .topnav-text {
     color: #523F6D;
