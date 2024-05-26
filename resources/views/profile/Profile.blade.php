@@ -27,10 +27,11 @@
         
         <div class="navigation">
             <div class="profile-background">
-            <svg class="profile-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #808080;">
+            <button class="profile-button" onclick="toggleForm()">
+            <svg class="button-profile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #808080;">
                 <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
             </svg>
-
+            </button>
                 <a class="profile-image" href="/post">
                     <div class="border-image">
                         <img class="Profile" src="Assets/Profile.jpg">
@@ -51,6 +52,12 @@
                 <a class="nav-bars" href="/artgallery">Setting</a>
             </div>
           </div>
+
+        <div class="form-popup" id="myForm">
+            <a>Sign Up</a>
+            <a>Log In</a>
+        </div>
+
       </header>
     <!--END NAVIGATION-->
 
