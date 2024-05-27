@@ -1,0 +1,11 @@
+.Username {
+    top: calc(17% + 13vw);
+    position: absolute;
+    left: calc(10% + 1.8vw); /* Adjusted for responsiveness */
+    font-size: 1.5vw; /* Adjusted for responsiveness */
+    color: #9C8BB8;
+    margin-bottom: 5vh; /* Adjusted for responsiveness */
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

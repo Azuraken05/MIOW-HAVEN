@@ -12,6 +12,11 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+
+    <!-- MAIN CONTENT CSS-->
+    <link href="css\AboutMe.css" rel="stylesheet" type="text/css" /> 
+  
+    
 </head>
 <body>
     <div class="Main">
@@ -73,6 +78,12 @@
         </div>
     </div>
     <!--END NAVIGATION-->
+
+
+    <!--ABOUT SECTION-->
+
+    <div class="Username"><p>MIOW: Where Art Meets Opportunity</p></div>
+
 
         <!--START GALLERY-->
         <!--END ART GALLERY-->
