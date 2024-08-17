@@ -50,3 +50,6 @@ body {
     z-index: 100; /* Ensure this is higher than .navigation */
     font-family: 'Inter';
 }
+.MIOW-Text{
+    text-decoration: none;
+}

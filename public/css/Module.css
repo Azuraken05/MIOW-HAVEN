@@ -184,8 +184,8 @@ body{
     max-width: 1390px; /* Set maximum width */
     height: 250px; /* Set the height of the rectangle */
     background-color: #342D3F; /* Set the background color to an RGBA color */
-    overflow: hidden; /* Ensure content doesn't overflow outside the container */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adjust the values as needed */
+    z-index: 0;
   }
 
   /*SKETCHPAD BUTTON*/

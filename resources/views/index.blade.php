@@ -29,25 +29,56 @@
     <!--START NAVIGATION-->
     <header>
         <div class="svg-container">
-          <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
-          <nav class="navigation">
-            <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets/Profile.jpg">
-                <p>Azuraken</p>
+        <div class="topnav-text">
+            <a href="/homepage" class="MIOW-Text">
+                MIOW
             </a>
-            <div class="BEGINNER"> 
-                STUDENT
+        </div>
+        <div class="top-logo">
+            <a href="/homepage">
+                <img src="Assets/miow cat hugging brush.png" class="topnav-logo">
+            </a>  
+        </div>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
             </div>
-            <div class="nav-background">
-                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
-                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
-                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
+            
+            <div class="navigation">
+                <div class="profile-background">
+                <button class="profile-button" onclick="toggleForm()">
+                <svg class="button-profile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #808080;">
+                    <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+                </svg>
+                </button>
+                    <a class="profile-image" href="/post">
+                        <div class="border-image">
+                            <img class="Profile" src="Assets/Profile.jpg">
+                        </div>
+                        <p>Anonymous</p>
+                    </a>
+                    <div class="BEGINNER"> 
+                        Guest
+                    </div>
+                </div>
+                <div class="nav-background">
+                    <a class="nav-bars" href="/homepage">Homepage
+                        <button class="button-homepage">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #D4CBE0;"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
+                        </button>
+                    </a>
+                    <a class="nav-bars1" href="/homelesson">Art Blog</a>
+                    <a class="nav-bars1" href="/artgallery">Art Gallery</a>
+                    <a class="nav-bars1" href="/communitypage">Community</a>
+                    <a class="nav-bars1" href="/homelesson">Sketchpad</a>
+                    <a class="nav-bars1" href="">Music Player</a>
+                    <a class="nav-bars1" href="">Setting</a>
+                </div>
             </div>
-          </nav>
-          <button class="hamburger">
-            <div class="bar"></div>
-          </button>
+
+            <div class="form-popup" id="myForm">
+                <a>Sign Up</a>
+                <a>Log In</a>
         </div>
       </header>
     <!--END NAVIGATION-->
@@ -81,7 +112,6 @@
     
     <!--START ABOUT-->
     <div class="about-line">
-      <img src="Assets/line.png" class="about-linep">
     </div>
     <div class="svg-Pcontainer">
       <div class="section-title"> ABOUT US </div>
@@ -136,7 +166,7 @@
         <div class="slides">
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Barro.png" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat1.png" alt="Placeholder image" class="image" />
             <div class="slided" onmouseover="showText(this)" onmouseout="hideText(this)">
               <h3>Barro</h3>
               <p>Description</p>
@@ -144,51 +174,31 @@
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Tan.png" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat2.png" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles\Forones.jpg" alt="Placeholder image" class="image" />
+            <img src="" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Araña .JPG" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat3.png" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Ogario.jpg" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat4.png" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Catiban.jpg" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat5.png" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Ybanez.JPG" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat6.png" alt="Placeholder image" class="image" />
           </a>
 
           <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Polea.jpg" alt="Placeholder image" class="image" />
-          </a>
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles\Collintes.jpg" alt="Placeholder image" class="image" />
-          </a>
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Manatad.jpg" alt="Placeholder image" class="image" />
-          </a>
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Lopez.jpg" alt="Placeholder image" class="image" />
-          </a>
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Tsugawa.jpg" alt="Placeholder image" class="image" />
-          </a>
-
-          <a href="#" class="slide" onmouseover="showText(this)" onmouseout="hideText(this)">
-            <img src="profiles/Baliza.JPG" alt="Placeholder image" class="image" />
+            <img src="TEAM ICON\cat7.png" alt="Placeholder image" class="image" />
           </a>
 
         </div>

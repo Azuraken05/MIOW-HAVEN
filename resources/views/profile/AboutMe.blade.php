@@ -15,35 +15,63 @@
 
     <!-- MAIN CONTENT CSS-->
     <link href="css\AboutMe.css" rel="stylesheet" type="text/css" /> 
-  
-    
 </head>
+
 <body>
     <div class="Main">
     <!--START NAVIGATION-->
-    <header>
-        <div class="svg-container">
-          <div class="topnav-text">MIOW</div>
-          <div class="top-logo"><img src="Assets/miow cat hugging brush.png" class="topnav-logo"></div>
-          <nav class="navigation">
-            <a class="profile-image" href="/post">
-                <img class="Profile" src="Assets/Profile.jpg">
-                <p>Azuraken</p>
+    <div class="svg-container">
+        <div class="topnav-text">
+            <a href="/homepage" class="MIOW-Text">
+                MIOW
             </a>
-            <div class="BEGINNER"> 
-                STUDENT
-            </div>
-            <div class="nav-background">
-                <a class="nav-bars" href="/homepage">HOMEPAGE</a>
-                <a class="nav-bars" href="/homelesson">DRAWING LESSONS</a>
-                <a class="nav-bars" href="/artgallery">ART GALLERY</a>
-            </div>
-          </nav>
+        </div>
+        <div class="top-logo">
+            <a href="/homepage">
+                <img src="Assets/miow cat hugging brush.png" class="topnav-logo">
+            </a>  
+        </div>
           <button class="hamburger">
             <div class="bar"></div>
           </button>
         </div>
-      </header>
+        
+        <div class="navigation">
+            <div class="profile-background">
+            <button class="profile-button" onclick="toggleForm()">
+            <svg class="button-profile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #808080;">
+                <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+            </svg>
+            </button>
+                <a class="profile-image" href="/post">
+                    <div class="border-image">
+                        <img class="Profile" src="Assets/Profile.jpg">
+                    </div>
+                    <p>Anonymous</p>
+                </a>
+                <div class="BEGINNER"> 
+                    Guest
+                </div>
+            </div>
+            <div class="nav-background">
+                <a class="nav-bars" href="/homepage">Homepage
+                    <button class="button-homepage">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #D4CBE0;"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
+                    </button>
+                </a>
+                <a class="nav-bars1" href="/homelesson">Art Blog</a>
+                <a class="nav-bars1" href="/artgallery">Art Gallery</a>
+                <a class="nav-bars1" href="/artgallery">Community</a>
+                <a class="nav-bars1" href="/artgallery">Sketchpad</a>
+                <a class="nav-bars1" href="/artgallery">Music Player</a>
+                <a class="nav-bars1" href="/artgallery">Setting</a>
+            </div>
+          </div>
+
+        <div class="form-popup" id="myForm">
+            <a>Sign Up</a>
+            <a>Log In</a>
+        </div>
     <!--END NAVIGATION-->
 
     <!--Profile Page-->
@@ -56,9 +84,10 @@
                         <h3>Azuraken</h3>
                         <table>
                             <tr>
-                                <td>69 Post</td>
-                                <td>143 Followers</td>
-                                <td>10 Following</td>
+                                <!--THIS IS FOR SOCIAL MEDIA -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>

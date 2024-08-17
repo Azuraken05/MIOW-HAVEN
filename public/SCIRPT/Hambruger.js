@@ -12,7 +12,8 @@ window.onload = function (){
     var form = document.getElementById("myForm");
     if (form.style.display === "block") {
         form.style.display = "none";
-    } else {
+    } 
+    else {
         form.style.display = "block";
     }
 }
